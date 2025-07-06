@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">assignment</string>
+    <string name="logo">Fcaebook</string>
+    <string name="email_or_phone_number">"Email or phone number "</string>
+    <string name="password">Password</string>
+    <string name="caption">Buckle up, because change is coming to WordPress.\nhttp://unblast.com/color-schemes</string>
+</resources>

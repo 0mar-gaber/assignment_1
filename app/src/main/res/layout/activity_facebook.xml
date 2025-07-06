@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_back_ground"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:paddingTop="90dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logo"
+        android:textAlignment="center"
+        style="@style/logo_text_style"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        >
+
+        <EditText
+            android:id="@+id/emailTextField"
+            style="@style/logo_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:background="@drawable/edit_text_background"
+            android:hint="@string/email_or_phone_number"
+            android:inputType="textEmailAddress"
+            android:padding="18dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:textSize="16sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray" />
+
+        <EditText
+            android:id="@+id/passwordTextField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/password"
+            android:textSize="16sp"
+            android:padding="18dp"
+            android:inputType="textPassword"
+            android:background="@drawable/edit_text_background"
+            android:textColorHint="@color/gray"
+            style="@style/logo_text_style"
+            android:textColor="@color/black"
+            />
+
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/logInButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue_button_back_ground"
+        android:text="Log In"
+        style="@style/logo_text_style"
+        android:textSize="20sp"
+        android:padding="12dp"
+
+
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        style="@style/logo_text_style"
+        android:text="Sign Up for Facebook"
+        android:textSize="20sp"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        style="@style/logo_text_style"
+        android:text="Help center"
+        android:textSize="20sp"/>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
